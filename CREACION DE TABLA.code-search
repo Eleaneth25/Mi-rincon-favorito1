@@ -1,0 +1,13 @@
+# Query: 
+# ContextLines: 1
+
+<table>
+  <thead>
+    <tr>
+      <Inserción de laboral <th> con los nombres de las columnas -->
+    </tr>
+  </thead>
+  <tbody>
+    <!-- aquí irán las filas <tr> con celdas <td> -->
+  </tbody>
+</table>

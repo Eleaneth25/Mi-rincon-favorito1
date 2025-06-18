@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo ‑ Cursos de creación de páginas web</title>
+  <style>
+    /* --- RESET BÁSICO --- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* --- TIPOGRAFÍA Y DISPOSICIÓN GENERAL --- */
+    body { font-family: system-ui, sans-serif; line-height: 1.5; color: #222; background: #f9f9fb; }
+    main { max-width: 960px; margin: 2rem auto; padding: 1rem; }
+
+    /* --- CABECERA --- */
+    header { text-align: center; margin-bottom: 2rem; }
+    header h1 { font-size: 2rem; margin-bottom: .5rem; color: #005fa3; }
+    header p { font-size: 1.1rem; margin-bottom: .75rem; }
+    header .intro { font-style: italic; color: #555; }
+
+    /* --- TABLA --- */
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    caption { font-weight: 700; margin: .75rem 0; text-align: left; font-size: 1.25rem; color: #005fa3; }
+    th, td { border: 1px solid #ddd; padding: .6rem .5rem; text-align: left; }
+    thead { background: #eaf3fb; }
+    tbody tr:nth-child(odd) { background: #fafcff; }
+
+    /* --- BOTONES-ENLACE --- */
+    .btn {
+      display: inline-block;
+      padding: .4rem .9rem;
+      border: 1px solid #0077cc;
+      background: #0077cc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: .35rem;
+      font-size: .9rem;
+      transition:background .15s, border-color .15s;
+    }
+    .btn:hover, .btn:focus {
+      background: #005fa3;
+      border-color: #005fa3;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+  <main>
+    <!-- PRESENTACIÓN / BIENVENIDA -->
+    <header>
+      <h1>¡Bienvenido al catálogo de cursos para crear tu propia página web!</h1>
+      <p>Aprende desde los fundamentos de HTML hasta el despliegue profesional en la nube.</p>
+      <p class="intro">Todos los cursos incluyen proyectos guiados y acompañamiento de tutores expertos.</p>
+    </header>
+
+    <!-- TABLA DE CURSOS -->
+    <table> 
+        <div class="separator">
+      <caption>Cursos de creación de páginas web</caption>
+      <thead>
+        <tr>
+          <th>Curso</th>
+          <th>Nivel</th>
+          <th>Duración</th>
+          <th>Modalidad</th>
+          <th>Próximo inicio</th>
+          <th>Enlace</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>HTML & CSS esencial</td>
+          <td>Básico</td>
+          <td>30 h</td>
+          <td>En línea (asincrónico)</td>
+          <td>12 ago 2025</td>
+          <td><a class="btn" href="https://ejemplo.com/html-css" target="_blank">Inscribirse</a></td>
+        </tr>
+
+        <tr>
+          <td>JavaScript interactivo</td>
+          <td>Intermedio</td>
+          <td>40 h</td>
+          <td>Híbrido</td>
+          <td>2 sep 2025</td>
+          <td><a class="btn" href="https://ejemplo.com/javascript" target="_blank">Inscribirse</a></td>
+        </tr>
+
+        <tr>
+          <td>Frameworks modernos (React)</td>
+          <td>Avanzado</td>
+          <td>50 h</td>
+          <td>Presencial</td>
+          <td>23 sep 2025</td>
+          <td><a class="btn" href="https://ejemplo.com/react" target="_blank">Inscribirse</a></td>
+        </tr>
+
+        <tr>
+          <td>Diseño responsivo &amp; mobile‑first</td>
+          <td>Intermedio</td>
+          <td>25 h</td>
+          <td>En línea (sincrónico)</td>
+          <td>7 oct 2025</td>
+          <td><a class="btn" href="https://ejemplo.com/responsive" target="_blank">Inscribirse</a></td>
+        </tr>
+
+        <tr>
+          <td>Despliegue y hosting en la nube</td>
+          <td>Avanzado</td>
+          <td>35 h</td>
+          <td>En línea (asincrónico)</td>
+          <td>4 nov 2025</td>
+          <td><a class="btn" href="https://ejemplo.com/deploy" target="_blank">Inscribirse</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  </div>
+</body>
+</html>
